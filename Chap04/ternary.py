@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+# Copyright 2009-2017 BHG http://bw.org/
+
+hungry = True
+x = 'Feed the bear now!' if hungry else 'Do not feed the bear.'
+print(x)
+
+y = 'feed the goddam bear' if hungry else "don't even think about it"
+print(y)
